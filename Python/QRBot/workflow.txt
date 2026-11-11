@@ -1,0 +1,43 @@
+/start
+ └─ Choose mode
+    └─ Generate
+       └─ Choose QR type
+           ├─ Simple
+           │   └─ Enter data
+           │       └─ Generate
+           │           └─ Show QR + [Generate again]
+           │
+           ├─ Custom color
+           │   └─ Enter data
+           │       └─ Choose module style (square / rounded / circle)
+           │           └─ Choose fill type (solid / radial)
+           │               └─ Choose color
+           │                   ├─ Preset
+           │                   ├─ HEX
+           │                   └─ RGB (optional)
+           │                       └─ Choose background color
+           │                           └─ Generate
+           │                               └─ Show QR + [Generate again]
+           │
+           └─ With logo
+               └─ Choose style
+                   ├─ Simple
+                   │   └─ Enter data
+                   │       └─ Upload logo
+                   │           └─ Generate
+                   │               └─ Show QR + [Generate again]
+                   │
+                   └─ Custom color
+                       └─ Enter data
+                           └─ Upload logo
+                               └─ Choose module style
+                                   └─ Choose fill type
+                                       └─ Choose color
+                                           ├─ Preset
+                                           ├─ HEX
+                                           └─ RGB (optional)
+                                               └─ Choose background color
+                                                   └─ Generate
+                                                       └─ Show QR + [Generate again]
+    
+

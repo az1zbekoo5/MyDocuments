@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cart - SavdoShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cart">
+  <header>
+    <a href="/" class="logo">SavdoShop</a>
+    <nav><a href="/">Shop</a> <a href="/cart.html">Cart (<span id="cart-count">0</span>)</a> <a href="/dashboard.html">Dashboard</a></nav>
+  </header>
+  <main>
+    <h1>Your cart</h1>
+    <div id="cart-items"></div>
+    <form id="checkout" class="card">
+      <h2>Checkout</h2>
+      <input id="fullName" placeholder="Full name" required>
+      <input id="email" type="email" placeholder="Email" required>
+      <input id="phone" placeholder="+998 90 123 45 67">
+      <input id="city" placeholder="City" value="Tashkent">
+      <select id="paymentMethod">
+        <option value="cash">Cash</option><option value="card">Card</option>
+        <option value="payme">Payme</option><option value="click">Click</option>
+      </select>
+      <button>Place order</button>
+      <p id="message"></p>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

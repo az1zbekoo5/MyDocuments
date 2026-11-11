@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product - SavdoShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="product">
+  <header>
+    <a href="/" class="logo">SavdoShop</a>
+    <nav><a href="/">Shop</a> <a href="/cart.html">Cart (<span id="cart-count">0</span>)</a> <a href="/dashboard.html">Dashboard</a></nav>
+  </header>
+  <main>
+    <div id="detail"></div>
+    <h2>Reviews</h2>
+    <div id="reviews"></div>
+    <form id="review-form" class="card">
+      <input id="author" placeholder="Your name">
+      <select id="rating">
+        <option value="5">5 - Excellent</option><option value="4">4 - Good</option>
+        <option value="3">3 - OK</option><option value="2">2 - Bad</option><option value="1">1 - Terrible</option>
+      </select>
+      <textarea id="comment" placeholder="Write a review" required></textarea>
+      <button>Send review</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

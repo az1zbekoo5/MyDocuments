@@ -1,0 +1,88 @@
+/start
+ └─ Choose interface language
+    ├─ 🇬🇧 English
+    ├─ 🇷🇺 Russian
+    ├─ 🇰🇷 Korean
+    └─ 🇺🇿 Uzbek
+        └─ Main menu
+           ├─ /study
+           │   └─ Choose study mode
+           │      ├─ Korean Alphabet
+           │      │   └─ Show Hangul chart
+           │      │       └─ Ready → /play
+           │      │
+           │      ├─ Korean Numbers
+           │      │   └─ Choose number type
+           │      │       ├─ Native numbers
+           │      │       │   └─ Show list
+           │      │       │       └─ Ready → /play
+           │      │       └─ Sino numbers
+           │      │           └─ Show list
+           │      │               └─ Ready → /play
+           │      │
+           │      └─ Vocabulary (Words)
+           │          └─ Choose topic
+           │              └─ Show word list
+           │                  └─ Ready → /play
+           │
+           ├─ /play
+           │   └─ Choose quiz type
+           │      ├─ Numbers
+           │      │   └─ Choose direction
+           │      │       ├─ Number → Korean
+           │      │       └─ Korean → Number
+           │      │           └─ Choose difficulty
+           │      │               ├─ Easy (1–10)
+           │      │               ├─ Medium (1–1000)
+           │      │               └─ Hard (1–999999)
+           │      │                   └─ Quiz loop
+           │      │                       ├─ Ask question
+           │      │                       ├─ Check answer
+           │      │                       ├─ Feedback
+           │      │                       ├─ Update score
+           │      │                       ├─ Level up (if eligible)
+           │      │                       └─ /stop → End quiz
+           │      │
+           │      └─ Vocabulary
+           │          └─ Choose topic
+           │              └─ Choose direction
+           │                  ├─ English → Korean
+           │                  └─ Korean → English
+           │                      └─ Quiz loop
+           │                          ├─ Ask word
+           │                          ├─ Accept multiple correct forms
+           │                          ├─ Feedback + tips
+           │                          └─ /stop → End quiz
+           │
+           ├─ /update
+           │   └─ Vocabulary management
+           │      ├─ Add new topic
+           │      │   └─ Enter topic name
+           │      │       └─ Enter words
+           │      │           └─ Save to JSON
+           │      │
+           │      ├─ Edit existing topic
+           │      │   └─ Choose topic
+           │      │       └─ Select word number
+           │      │           └─ Update translation
+           │      │
+           │      └─ Delete topic
+           │          └─ Choose topic
+           │              └─ Confirm deletion
+           │
+           ├─ /score
+           │   └─ Show statistics
+           │      ├─ Correct answers
+           │      ├─ Wrong answers
+           │      ├─ Accuracy
+           │      └─ Current streak
+           │
+           ├─ /lang
+           │   └─ Change interface language
+           │
+           ├─ /help
+           │   └─ Show bot usage guide
+           │
+           └─ /stop
+               └─ Stop active quiz
+                   └─ Return to main menu

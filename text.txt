@@ -1,0 +1,36 @@
+PS C:\Users\user\AndroidStudioProjects\ContextBridgeAI> python tools/verify_phase3_rls.py --run --phase2-gate-passed --migration-applied
+Confirmed disposable account A email: rixsitillayevazizbek36@gmail.com
+Password (hidden): 
+PASS: test account sign-in
+Confirmed disposable account B email: akmalpulatov123@gmail.com
+Password (hidden): 
+PASS: test account sign-in
+PASS: two distinct accounts
+PASS: create own bookmark
+PASS: atomic paste import
+PASS: create own bookmark
+PASS: atomic paste import
+PASS: foreign content select denied
+PASS: foreign content PATCH denied
+PASS: foreign content DELETE denied
+PASS: foreign attempts leave exact content intact
+PASS: foreign attachment through update denied
+PASS: foreign attachment through RPC denied
+PASS: create second own bookmark
+PASS: foreign attachment through direct insert denied
+PASS: denied insert cannot mark imported
+PASS: foreign content select denied
+PASS: foreign content PATCH denied
+PASS: foreign content DELETE denied
+PASS: foreign attempts leave exact content intact
+PASS: foreign attachment through update denied
+PASS: foreign attachment through RPC denied
+PASS: create second own bookmark
+PASS: foreign attachment through direct insert denied
+PASS: denied insert cannot mark imported
+PASS: stale account scope cannot import into another account
+PASS: clear keeps URL and resets status
+PASS: cannot spoof imported status
+PASS: replace via file-source RPC
+PASS: exact edited text persisted
+PASS: authenticated API checks. Android restart/SAF/account-switch tests still require your phone.
